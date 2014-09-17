@@ -1,0 +1,16 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+ 
+	<bean id="helloBean" class="com.mycompany.myapp.HelloWorld">
+		<property name="name" value="Dave" />
+		<property name="age" value ="Something" />
+	</bean>
+	
+	<bean id="o" class="com.mycompany.myapp.Other">
+		<property name="a" value="10" />
+		<property name="b" value="10" />
+	</bean>
+ 
+</beans>
